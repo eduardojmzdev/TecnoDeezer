@@ -1,8 +1,11 @@
 {
-  "name": "TecnoDeezer",
-  "app_id": "",
+  "name": "New Ionic App",
+  "integrations": {},
   "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  }
+  "proxies": [
+    {
+      "path": "/deezerAPI/",
+      "proxyUrl": "https://api.deezer.com/"
+    }
+  ]
 }

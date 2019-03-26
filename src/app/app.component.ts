@@ -15,7 +15,7 @@ import { CancionesPage } from '../pages/canciones/canciones';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  @ViewChild("NAV") nav : Nav;
+  @ViewChild("NAVx") nav : Nav;
   // rootPage:any = HomePages
   public rootPage:any;
   public pages:Array<{titulo:string, component:any, icon:string}>;
